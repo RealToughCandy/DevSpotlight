@@ -54,7 +54,7 @@ jQuery(function($, undefined) {
 
    if (command.toLowerCase() == 'about'){
      this.echo("\n")
-     window.location.href = "season_one.html";   }
+     window.location.href = "seasonone.html";   }
 
 
    if (command.toLowerCase() == 'manifesto'){
