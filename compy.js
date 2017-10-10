@@ -54,8 +54,7 @@ jQuery(function($, undefined) {
 
    if (command.toLowerCase() == 'about'){
      this.echo("\n")
-     this.echo("In Season 1 of Dev Spotlight, Elise confesses her recent love for Wordpress, while Michael reveals his first interaction was with the Comodore Vic-20. What will Mirza think while still wrapped up in his own noble pursuit of Angular? It gets even more compelling as geographically-transplanted Casadaro reveals that he questions everything. Meanwhile, Dr. Kamea deploys a secret formula for managing tech teams as he transitions from dentist to developer and Jim is just straight-up MEAN. It’s heating up here on Season One’s Dev Spotlight!")
-   }
+     window.location.href = "season_one.html";   }
 
 
    if (command.toLowerCase() == 'manifesto'){
