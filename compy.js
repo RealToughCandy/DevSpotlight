@@ -64,7 +64,7 @@ jQuery(function($, undefined) {
 
 if (command.toLowerCase() == 'realtoughcandy'){
   this.echo("\n")
-  this.echo("I’m known as RealToughCandy on YouTube, but you can call me Candy. I got my start in the feral ’90s underbelly of web culture and actually lived to tell about it. Today, I develop the internet. I freaking love the 'net.  \nEmail me: realtoughcandy@gmail.com.\n\n")
+  this.echo("I’m known as RealToughCandy on YouTube, but you can call me Candy. \nI got my start in the feral ’90s underbelly \nof web culture and actually lived to tell about it. \nToday, I develop the internet. \nI freaking love the 'net.  \nEmail me: realtoughcandy@gmail.com.\n\n")
 }
 
    else {
