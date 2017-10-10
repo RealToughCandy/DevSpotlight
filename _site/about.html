@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <script src="compy.js"></script>
+  <script
+   src="https://code.jquery.com/jquery-2.2.4.min.js"
+   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+   crossorigin="anonymous"></script>
+
+  <title>About || The Dev Spotlight || A RealToughCandy Production</title>
+  <script>
+  $( document ).ready(function() {
+    console.log( "ready!" );
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>
+
+<h1> They are <div id="rotate"> <div>motivated.</div> <div>dedicated.</div> <div>coding.</div> <div>learning.</div>
+<div>en fuego.</div>
+<div>bad@$$.</div>
+<div>dreaming.</div>
+<div>achieving.</div>
+<div>developing.</div>
+<div>in the Dev Spotlight.</div>
+
+
+</div> </h1>
+
+<p>But, wait a minute! <h2><em>There are no developers.</em></h2>
+<h2> <em>We have a major tech shortage. </em></h2>
+ <h2><em>Who will run our digital domain?</em></h2>
+
+<p>These messages are constant; often a collective panic from the media, government,
+and private sector...Sometimes even the tech industry, itself!
+<br /><br />
+Indeed, the world needs more developers.
+<br /><br />
+Here they are.
+<br /><br />
+I've seen these guys' and gals' work ethic, checked out their projects, engaged in seriously
+nerdy (read: awesome) tech conversations.
+These people are the next generation of butt-kickin' developers.
+Why else would I feature them?
+Welcome to the Dev Spotlight Series.
+
+<h2><em> Yeah, so...Who are you, again?</em></h2>
+
+<p>I'm known as <a href="http://www.youtube.com/realtoughcandy">RealToughCandy on YouTube</a>,
+  but you can call me Candy. I got my start in the feral ’90s underbelly of web culture and
+  actually lived to tell about it. Can you tell? Today, I develop the internet.
+ Dude, I freaking love the 'net. <br /><br />
+ Go <a href='index.html'>back</a>
+ <script>
+ (function($){
+     $.fn.extend({
+         rotaterator: function(options) {
+
+             var defaults = {
+                 fadeSpeed: 1200,
+                 pauseSpeed: 600,
+ 				child:null
+             };
+
+             var options = $.extend(defaults, options);
+
+             return this.each(function() {
+                   var o =options;
+                   var obj = $(this);
+                   var items = $(obj.children(), obj);
+ 				  items.each(function() {$(this).hide();})
+ 				  if(!o.child){var next = $(obj).children(':first');
+ 				  }else{var next = o.child;
+ 				  }
+ 				  $(next).fadeIn(o.fadeSpeed, function() {
+ 						$(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+ 							var next = $(this).next();
+ 							if (next.length == 0){
+ 									next = $(obj).children(':first');
+ 							}
+ 							$(obj).rotaterator({child : next, fadeSpeed : o.fadeSpeed, pauseSpeed : o.pauseSpeed});
+ 						})
+ 					});
+             });
+         }
+     });
+ })(jQuery);
+
+  $(document).ready(function() {
+         $('#rotate').rotaterator({fadeSpeed:1200, pauseSpeed:600});
+  });
+
+
+</script>
+</body>
+</html>

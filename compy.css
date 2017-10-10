@@ -1,0 +1,57 @@
+a:visited {
+  color: lime;
+}
+
+body {
+
+  background-color: black;
+  font-family: monospace;
+}
+
+
+#tele {
+
+  border: 2px solid;
+  border-radius: 85px;
+  position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+opacity: 0.2;
+
+}
+figcaption {
+  color: lime;
+  font-family: Andale Mono, monospace;
+  position: fixed;
+  text-align: center;
+  font-size: 40px;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+/*text-shadow:
+  -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white; */
+     margin-top: 220px;
+
+}
+
+span {
+  font-size: 28px;
+  color: lime;
+  background: black;
+  line-height: 2rem;
+  padding: 3px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 50px 100px;
+grid-template-rows: 80px auto 80px;
+grid-column-gap: 10px;
+grid-row-gap: 15px;
+
+}

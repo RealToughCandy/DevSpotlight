@@ -1,0 +1,42 @@
+body {
+
+  background-color: black;
+  font-color: white;
+
+
+.flexbox {
+  display: flex;
+}
+
+
+
+}
+
+#tele {
+
+  border: 2px solid;
+  border-radius: 85px;
+  position: fixed;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+
+}
+figcaption {
+  color: lime;
+  font-family: Andale Mono;
+  position: fixed;
+  font-size: 40px;
+top: 50%;
+left: 50%;
+/* bring your own prefixes */
+transform: translate(-50%, -50%);
+/*text-shadow:
+  -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white; */
+     margin-top: 220px;
+
+}

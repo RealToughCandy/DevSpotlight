@@ -1,0 +1,88 @@
+@font-face {
+  font-family: mom;
+  src: url("/Users/runaway_jezzabel/Documents/greenCompy/mom.ttf");
+  font-family: ka1;
+  src: url("/Users/runaway_jezzabel/Documents/greenCompy/ka1.ttf");
+}
+
+body {
+  color: #373d3f;
+  background-color: aliceblue;
+}
+
+.hero {
+  font-size: 40vw;
+}
+
+#kamea {
+  font-size: 18vw;
+}
+
+#michael {
+  font-size: 14vw;
+}
+
+#mirza {
+  font-size: 20vw;
+}
+
+#casa {
+  font-size: 11.5vw;
+}
+
+blockquote {  font-size: 28px; padding: 0 50px;  margin-left: 0;  border-left: 5px solid lightgray; }
+
+p {
+  font-size: 19px;
+
+}
+img {
+  margin: auto;
+}
+
+a {
+  color: coral;
+}
+
+@-webkit-keyframes move
+{
+    from {
+        right: 10%;
+    }
+    to {
+        right: 0%%;
+    }
+}
+@keyframes move
+{
+    from {
+        right: 10%;
+    }
+    to {
+        right: 0%;
+    }
+}
+
+
+
+a.rotator {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    right: 0%;
+    position: relative;
+    display: block;
+    -webkit-animation: move 5s;
+    animation: move 5s;
+    font-family: Momstypewriter;
+    font-style: italic;
+
+
+
+
+}
+
+p, h1, h2, h3, h4, h5 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
