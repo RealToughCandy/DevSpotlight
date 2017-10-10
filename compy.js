@@ -20,50 +20,50 @@ jQuery(function($, undefined) {
 
    }
 
-   if (command == 'Elise' || command == 'elise'){
+   if (command.toLowerCase() == 'elise'){
      //window.open('Elise.html', '_self',false)
      window.location.href = "Elise.html";
 
-   } 
+   }
 
 
 
-   if (command == 'Casadaro' || command == 'casadaro'){
+   if (command.toLowerCase() == 'casadaro'){
      //window.open('Casadaro.html', '_self',false)
      window.location.href = "Casadaro.html";
 
    }
 
-   if (command == 'Jim' || command == 'jim'){
+   if (command.toLowerCase() == 'jim'){
      //window.open('Jim.html', '_self',false)
      window.location.href = "Jim.html";
 
    }
 
-   if (command == 'Mirza' || command == 'mirza'){
+   if (command.toLowerCase() == 'jim'){
     // window.open('Mirza.html', '_self',false)
     window.location.href = "Mirza.html";
 
    }
 
-   if (command == 'Kamea' || command == 'kamea'){
+   if (command.toLowerCase() == 'kamea'){
      //window.open('Kamea.html', '_self',false)
      window.location.href = "Kamea.html";
 
    }
 
-   if (command == 'about' || command == 'About'){
+   if (command.toLowerCase() == 'about'){
      this.echo("\n")
      this.echo("In Season 1 of Dev Spotlight, Elise confesses her recent love for Wordpress, while Michael reveals his first interaction was with the Comodore Vic-20. What will Mirza think while still wrapped up in his own noble pursuit of Angular? It gets even more compelling as geographically-transplanted Casadaro reveals that he questions everything. Meanwhile, Dr. Kamea deploys a secret formula for managing tech teams as he transitions from dentist to developer and Jim is just straight-up MEAN. It’s heating up here on Season One’s Dev Spotlight!")
    }
 
 
-   if (command == 'Manifesto' || command == 'manifesto'){
+   if (command.toLowerCase() == 'manifesto'){
      //window.open('about.html', '_self',false)
      window.location.href = "about.html";
 }
 
-if (command == 'RealToughCandy' || command == 'realtoughcandy'){
+if (command.toLowerCase() == 'realtoughcandy'){
   this.echo("\n")
   this.echo("I’m known as RealToughCandy on YouTube, but you can call me Candy. I got my start in the feral ’90s underbelly of web culture and actually lived to tell about it. Today, I develop the internet. I freaking love the 'net.  \nEmail me: realtoughcandy@gmail.com.\n\n")
 }
@@ -91,3 +91,4 @@ if (command == 'RealToughCandy' || command == 'realtoughcandy'){
  color: 'green'
  });
 });
+
