@@ -30,17 +30,17 @@ jQuery(function($, undefined) {
 
    if (command.toLowerCase() == 'casadaro'){
      //window.open('Casadaro.html', '_self',false)
-     window.location.href = "Casadaro.html";
+     window.location.href = "casadaro.html";
 
    }
 
    if (command.toLowerCase() == 'jim'){
      //window.open('Jim.html', '_self',false)
-     window.location.href = "Jim.html";
+     window.location.href = "jim.html";
 
    }
 
-   if (command.toLowerCase() == 'jim'){
+   if (command.toLowerCase() == 'mirza'){
     // window.open('Mirza.html', '_self',false)
     window.location.href = "Mirza.html";
 
@@ -48,7 +48,7 @@ jQuery(function($, undefined) {
 
    if (command.toLowerCase() == 'kamea'){
      //window.open('Kamea.html', '_self',false)
-     window.location.href = "Kamea.html";
+     window.location.href = "kamea.html";
 
    }
 
